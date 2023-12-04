@@ -1,0 +1,76 @@
+/*
+ * Custom CSS
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  --bs-body-bg: var(--bs-gray-100);
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main_row{
+  padding-top: 160px;
+}
+.page-wrapper {
+  background-color: #fff;
+  background-image: url('images/GFG_Lead_Portal_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+}
+
+.comp-grid {
+  padding-top: 10%;
+}
+.col-form-label{
+  min-width: 140px !important;
+}
+.mobile_img, .custom_text{
+  display: none;
+}
+@media screen and (max-width: 575px){
+  .main_row{
+    padding-top: 20px;
+  }
+  .page-wrapper{
+    background-image: none;
+  }
+  .mobile_img{
+    display: block;
+    text-align: center;
+  }
+  .mobile_img img{
+    width: auto;
+    max-width: 100%;
+    max-height: 350px;
+  }
+  .custom_text{
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .container{
+    padding: 0 20px;
+  }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+  .row > *{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-height: 680px) and (min-width: 576px){
+  .main_row {
+    padding-top: 100px;
+  }
+}

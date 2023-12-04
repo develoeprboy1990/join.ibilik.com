@@ -1,0 +1,6 @@
+/vendor
+composer.lock
+/uploads
+.htaccess
+config.php
+error.log
