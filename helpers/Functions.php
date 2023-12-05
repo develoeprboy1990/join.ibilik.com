@@ -521,10 +521,10 @@ function human_datetime($date)
  * returns true if $needle is a substring of $haystack
  * @return  bool
  */
-function str_contains($needle, $haystack)
+/*function str_contains($needle, $haystack)
 {
 	return strpos($haystack, $needle) !== false;
-}
+}*/
 /**
  * Approximate to nearest decimal points
  * @return  string
